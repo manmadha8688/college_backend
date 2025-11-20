@@ -3,7 +3,7 @@ Django==5.2.7
 djangorestframework==3.15.2
 
 # Database
-psycopg2==2.9.9  # Changed from psycopg2-binary
+psycopg2-binary==2.9.9  # Using binary version for better compatibility
 dj-database-url==2.1.0
 
 # Authentication & Security
