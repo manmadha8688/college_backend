@@ -1,7 +1,19 @@
+# Core
 Django==5.2.7
 djangorestframework==3.15.2
+
+# Database
+psycopg2-binary==2.9.9
+dj-database-url==2.1.0
+
+# Authentication & Security
 djangorestframework-simplejwt==5.3.1
 PyJWT==2.9.0
-django-cors-headers==4.3.1
-psycopg2-binary==2.9.9
+python-dotenv==1.0.1
 
+# CORS
+django-cors-headers==4.3.1
+
+# Production
+whitenoise==6.6.0
+gunicorn==21.2.0
